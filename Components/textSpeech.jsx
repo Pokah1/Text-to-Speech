@@ -39,6 +39,22 @@ const TexttoSpeech = () => {
 
     // Function to handle speech synthesis
     const speakText = () => {
+
+        if (text.trim() === '') {
+            alert('Please enter text to speak');
+            return;
+        }
+
+        if (selectedLanguage.trim() === '') {
+            alert('Please select a language');
+            return;
+        }
+
+        const languageSupported = supportedLanguages.some(language => language.code === selectedLanguage);
+        if (!languageSupported) {
+            alert('Selected language is not supported');
+            return;
+        }
        
         if ('speechSynthesis' in window) {
             const utterance = new SpeechSynthesisUtterance(text);

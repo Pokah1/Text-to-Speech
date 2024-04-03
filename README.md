@@ -1,8 +1,11 @@
-# React + Vite
+This is a simple yet powerful web application built with React that converts text input into speech using the Web Speech API. It provides an easy-to-use interface for users to input text, select a language, and hear the text spoken aloud. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+- Convert text input to speech in multiple languages.
+- Supported languages include English, French, and Spanish.
+- Simple and intuitive user interface.
+- Error handling for empty text input and unsupported languages.
+- Responsive design for desktop and mobile devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project was created by [Edikan Odokwo Name (SirPokah) ]# Text-to-Speech-App
