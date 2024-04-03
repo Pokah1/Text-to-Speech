@@ -8,4 +8,4 @@ This is a simple yet powerful web application built with React that converts tex
 - Error handling for empty text input and unsupported languages.
 - Responsive design for desktop and mobile devices.
 
-This project was created by [Edikan Odokwo Name (SirPokah) ]# Text-to-Speech-App
+This project was created by [Edikan Odokwo Name (SirPokah) ]
