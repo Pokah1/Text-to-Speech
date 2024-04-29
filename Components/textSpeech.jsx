@@ -8,7 +8,10 @@ const TexttoSpeech = () => {
     const [supportedLanguages, setSupportedLanguages] = useState([
         { name: 'English', code: 'en-US' },
         { name: 'French', code: 'fr-FR' },
-        { name: 'Spanish', code: 'es-ES' }
+        { name: 'Spanish', code: 'es-ES' },
+        { name: 'Igbo', code: 'ig-NG' }, 
+        { name: 'Yoruba', code: 'yo-NG' },
+        { name: 'Hausa', code: 'ha-NG' } 
     ]);
 
     // useEffect (() => {
